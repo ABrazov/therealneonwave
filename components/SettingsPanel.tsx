@@ -66,7 +66,7 @@ const SettingsPanel: React.FC<SettingsPanelProps> = ({
               <span className="text-emerald-400 font-black font-mono">{autoclickerCPS.toFixed(1)} <span className="text-[8px] text-zinc-600">Hz</span></span>
             </div>
             <input 
-              type="range" min="0.1" max="50" step="0.1" 
+              type="range" min="2" max="150" step="2" 
               value={autoclickerCPS}
               onChange={(e) => setAutoclickerCPS(parseFloat(e.target.value))}
               className="w-full accent-emerald-400 h-1.5 bg-zinc-800 rounded-lg appearance-none cursor-pointer"
