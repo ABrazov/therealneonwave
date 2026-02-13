@@ -82,7 +82,7 @@ const MenuLevels: React.FC<MenuLevelsProps> = ({ storySpeed, setStorySpeed, onBa
             length: 3600000, // 60 min
             color: "#ff0066",
             features: ['spikes', 'portals'],
-            startingMode: 'SHIP'
+            startingMode: 'WAVE'
           };
         }
       }
